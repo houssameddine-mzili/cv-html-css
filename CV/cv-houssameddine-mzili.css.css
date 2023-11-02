@@ -1,0 +1,101 @@
+body {
+    background-color: #000; /* Couleur d'arrière-plan sombre */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Créer une mise en page sur deux colonnes */
+}
+.left-column {
+    flex: 1; /* Rendre la colonne de gauche flexible */
+    padding: 20px;
+}
+.right-column {
+    flex: 2; /* Rendre la colonne de droite flexible */
+    padding: 20px;
+}
+.header {
+    text-align: center;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact {
+    font-size: 18px;
+}
+.section {
+    margin-top: 20px;
+}
+.section-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+.section-content {
+    margin-top: 10px;
+}
+.profile-picture {
+    max-width: 100%;
+    border: 2px solid #000000; /* Bordure carrée autour de la photo de profil */
+}
+.info-box {
+    border: 2px solid #000000; /* Bordure carrée autour des informations personnelles */
+    padding: 10px;
+    margin-top: 20px;
+}
+.info-title {
+font-size: 20px; /* Ajuster la taille de la police du titre */
+font-weight: bold;
+}
+.hard-skills {
+    border: 2px solid #000000; /* Bordure carrée autour des informations personnelles */
+    padding: 10px;
+    margin-top: 20px;
+}
+.skills-title {
+font-size: 20px; /* Ajuster la taille de la police du titre */
+font-weight: bold;
+}
+.career-goal {
+border: 2px solid #000000; /* Ajouter une bordure carrée */
+padding: 20px; /* Ajouter du padding pour créer de l'espacement */
+margin-top: 20px; /* Ajouter une marge supérieure pour l'espacement du nom */
+}
+.goal-title {
+font-size: 20px; /* Ajuster la taille de la police du titre */
+font-weight: bold;
+}
+.professional-experience {
+border: 2px solid #000000; /* Ajouter une bordure carrée */
+padding: 20px; /* Ajouter du padding pour créer de l'espacement */
+margin-top: 20px; /* Ajouter une marge supérieure pour l'espacement du nom */
+}
+.goal-title, .experience-title {
+font-size: 20px; /* Ajuster la taille de la police du titre */
+font-weight: bold;
+}
+.career-goal p, .professional-experience p {
+margin: 20px 0; /* Ajouter une marge pour créer un espace entre chaque ligne */
+}
+.study-training {
+border: 2px solid #000000; /* Ajouter une bordure carrée */
+padding: 20px; /* Ajouter du padding pour créer de l'espacement */
+margin-top: 20px; /* Ajouter une marge supérieure pour l'espacement du nom */
+}
+.study-title{
+font-size: 20px; /* Ajuster la taille de la police du titre */
+font-weight: bold;
+}
+.skill {
+display: flex;
+align-items: center;
+}
+.percentage {
+margin-left: 20px; /* Ajustez cette valeur pour contrôler l'espacement entre l'image et le pourcentage */
+}
